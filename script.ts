@@ -26,7 +26,7 @@ while(i3 <= n3){
 // задание 4
 let procent = Number(prompt('Введите годовую ставку'))
 let years = 0
-let i = 0
+i = 0
 while(i < 200){
   i += procent
   years++
@@ -47,6 +47,6 @@ let days = 0
 while(volume > 10){
   volume -= volume * 0.1
   days++
-  console.log('----- ' + volume)
+  console.log(`через ${days} дней объём равен ` + volume)
 }
-alert(`Такого объёма воды хватит на ${days} дней работы `)
+alert(`Такого объёма воды хватит на ${days - 1} дней работы `)

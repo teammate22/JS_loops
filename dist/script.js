@@ -26,7 +26,7 @@ while (i3 <= n3) {
 // задание 4
 var procent = Number(prompt('Введите годовую ставку'));
 var years = 0;
-var i = 0;
+i = 0;
 while (i < 200) {
     i += procent;
     years++;
@@ -46,6 +46,6 @@ var days = 0;
 while (volume > 10) {
     volume -= volume * 0.1;
     days++;
-    console.log('----- ' + volume);
+    console.log("\u0447\u0435\u0440\u0435\u0437 " + days + " \u0434\u043D\u0435\u0439 \u043E\u0431\u044A\u0451\u043C \u0440\u0430\u0432\u0435\u043D " + volume);
 }
-alert("\u0422\u0430\u043A\u043E\u0433\u043E \u043E\u0431\u044A\u0451\u043C\u0430 \u0432\u043E\u0434\u044B \u0445\u0432\u0430\u0442\u0438\u0442 \u043D\u0430 " + days + " \u0434\u043D\u0435\u0439 \u0440\u0430\u0431\u043E\u0442\u044B ");
+alert("\u0422\u0430\u043A\u043E\u0433\u043E \u043E\u0431\u044A\u0451\u043C\u0430 \u0432\u043E\u0434\u044B \u0445\u0432\u0430\u0442\u0438\u0442 \u043D\u0430 " + (days - 1) + " \u0434\u043D\u0435\u0439 \u0440\u0430\u0431\u043E\u0442\u044B ");
